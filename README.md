@@ -9,9 +9,10 @@ base de datos con el propósito de gestionar el inventario, las ventas el stock 
 todas las entidades invlucradas con la empresa.  
 
 
-#Modelo
+# Modelo
 
-./modelo_er.png  
+ El modelo entidad relación se encuentra  en este repositorio con el nombre  
+ modelo_er.png.
 
 #Instrucciones  
 
@@ -20,6 +21,6 @@ deberá conectarse a la base de datos y desde esta instancia podrá registrar
 sus ventas de manera efectiva.  
 
 
-#Descripcion
+# Descripcion
 
-- Modelo_er.png:
+- Modelo_er.png: 
