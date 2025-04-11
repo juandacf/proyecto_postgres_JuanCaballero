@@ -27,4 +27,6 @@ WHERE v.fecha BETWEEN '2025-04-04' AND '2025-05-07';
 --  Identificar clientes que no han comprado en los últimos 6 meses.
 
 SELECT c.id_cliente, c.nombre_cliente FROM clientes AS c
+RIGHT JOIN  ventas AS v ON c.id_cliente = v.id_cliente
+WHERE v.fecha BETWEEN '2024-10-04' AND '2025-04-11' ;
 
